@@ -37,6 +37,6 @@ else:
 			ans.append(y)
 
 if collections.Counter(ans) == collections.Counter(x):
-	print("\nOutput is: f(x) = x *", diff, x[0] - diff**2)
+	print("\nOutput is: f(x) = x *", diff, "+ (", + x[0] - diff**2, ")")
 else:
 	print("Couldn't find the pattern.")
